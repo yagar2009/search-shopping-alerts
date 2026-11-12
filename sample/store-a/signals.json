@@ -1,0 +1,397 @@
+{
+ "client": "Store A (security systems)",
+ "window_days": 28,
+ "sources": {
+  "search_console": {
+   "range": [
+    "2026-10-13",
+    "2026-11-09"
+   ],
+   "prev_range": [
+    "2026-09-15",
+    "2026-10-12"
+   ],
+   "totals": {
+    "clicks": {
+     "cur": 3,
+     "prev": 0,
+     "change": null
+    },
+    "impressions": {
+     "cur": 442,
+     "prev": 0,
+     "change": null
+    }
+   },
+   "avg_position": {
+    "cur": 51.7,
+    "prev": null
+   },
+   "rising_queries": [
+    {
+     "query": "online patch panel",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 33,
+     "impr_prev": 0,
+     "pos": 9.8,
+     "pos_prev": null
+    },
+    {
+     "query": "системи контролю доступу",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 16,
+     "impr_prev": 0,
+     "pos": 86.7,
+     "pos_prev": null
+    },
+    {
+     "query": "система контролю доступу",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 13,
+     "impr_prev": 0,
+     "pos": 86.4,
+     "pos_prev": null
+    },
+    {
+     "query": "система контролю",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 11,
+     "impr_prev": 0,
+     "pos": 79.4,
+     "pos_prev": null
+    },
+    {
+     "query": "система протипожежного захисту ціна",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 9,
+     "impr_prev": 0,
+     "pos": 52.1,
+     "pos_prev": null
+    },
+    {
+     "query": "скуд запорожье",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 9,
+     "impr_prev": 0,
+     "pos": 71.8,
+     "pos_prev": null
+    },
+    {
+     "query": "сигнализация банкомата",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 8,
+     "impr_prev": 0,
+     "pos": 95.9,
+     "pos_prev": null
+    },
+    {
+     "query": "електроживлення",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 8,
+     "impr_prev": 0,
+     "pos": 14,
+     "pos_prev": null
+    },
+    {
+     "query": "скуд днепр",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 7,
+     "impr_prev": 0,
+     "pos": 67,
+     "pos_prev": null
+    },
+    {
+     "query": "kvp 5",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 7,
+     "impr_prev": 0,
+     "pos": 7.6,
+     "pos_prev": null
+    }
+   ],
+   "new_queries": [
+    {
+     "query": "online patch panel",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 33,
+     "impr_prev": 0,
+     "pos": 9.8,
+     "pos_prev": null
+    },
+    {
+     "query": "системи контролю доступу",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 16,
+     "impr_prev": 0,
+     "pos": 86.7,
+     "pos_prev": null
+    },
+    {
+     "query": "система контролю доступу",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 13,
+     "impr_prev": 0,
+     "pos": 86.4,
+     "pos_prev": null
+    },
+    {
+     "query": "система контролю",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 11,
+     "impr_prev": 0,
+     "pos": 79.4,
+     "pos_prev": null
+    },
+    {
+     "query": "система протипожежного захисту ціна",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 9,
+     "impr_prev": 0,
+     "pos": 52.1,
+     "pos_prev": null
+    },
+    {
+     "query": "скуд запорожье",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 9,
+     "impr_prev": 0,
+     "pos": 71.8,
+     "pos_prev": null
+    },
+    {
+     "query": "сигнализация банкомата",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 8,
+     "impr_prev": 0,
+     "pos": 95.9,
+     "pos_prev": null
+    },
+    {
+     "query": "електроживлення",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 8,
+     "impr_prev": 0,
+     "pos": 14,
+     "pos_prev": null
+    },
+    {
+     "query": "скуд днепр",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 7,
+     "impr_prev": 0,
+     "pos": 67,
+     "pos_prev": null
+    },
+    {
+     "query": "kvp 5",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 7,
+     "impr_prev": 0,
+     "pos": 7.6,
+     "pos_prev": null
+    }
+   ],
+   "losing_queries": [],
+   "losing_pages": [],
+   "striking_distance": [
+    {
+     "query": "online patch panel",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 33,
+     "impr_prev": 0,
+     "pos": 9.8,
+     "pos_prev": null
+    }
+   ]
+  },
+  "ga4": {
+   "range": [
+    "2026-10-15",
+    "2026-11-11"
+   ],
+   "prev_range": [
+    "2026-09-17",
+    "2026-10-14"
+   ],
+   "totals": {
+    "sessions": {
+     "cur": 48,
+     "prev": 16,
+     "change": 2.0
+    },
+    "activeUsers": {
+     "cur": 33,
+     "prev": 14,
+     "change": 1.357
+    },
+    "engagedSessions": {
+     "cur": 20,
+     "prev": 4,
+     "change": 4.0
+    },
+    "keyEvents": {
+     "cur": 0,
+     "prev": 0,
+     "change": null
+    },
+    "addToCarts": {
+     "cur": 1,
+     "prev": 0,
+     "change": null
+    },
+    "checkouts": {
+     "cur": 1,
+     "prev": 0,
+     "change": null
+    }
+   },
+   "channels": [
+    {
+     "name": "Direct",
+     "sessions": 41,
+     "sessions_prev": 16,
+     "change": 1.562
+    },
+    {
+     "name": "Organic Search",
+     "sessions": 5,
+     "sessions_prev": 0,
+     "change": null
+    },
+    {
+     "name": "Referral",
+     "sessions": 2,
+     "sessions_prev": 0,
+     "change": null
+    }
+   ],
+   "landing_pages_losing": [
+    {
+     "name": "/login",
+     "sessions": 0,
+     "sessions_prev": 1
+    }
+   ]
+  },
+  "merchant_center": {
+   "products_total": 5073,
+   "status": {
+    "NOT_ELIGIBLE_OR_DISAPPROVED": 5073
+   },
+   "disapproved_share": 1.0,
+   "top_issues": [
+    {
+     "code": "misrepresentation",
+     "count": 5073,
+     "severity": "DISAPPROVED",
+     "attribute": "",
+     "examples": [
+      "Зовнішня IP-камера GV-189-IP-H-DOS50VM-240 SD",
+      "Зовнішня IP-камера GreenVision GV-191-IP-IF-COS80-30 180°",
+      "IP камера вулична 5MP POE SD-карта GreenVision GV-184-IP-IF-COS50-80 VMA"
+     ]
+    },
+    {
+     "code": "landing_page_error",
+     "count": 2,
+     "severity": "DISAPPROVED",
+     "attribute": "n:link",
+     "examples": [
+      "IP відеокамера Ajax BulletCam HL (8 Mp/2.8 mm) white",
+      "Комутатор Dahua DH-PFS3005-5GT-L (5x1G RJ-45) 10 Гбіт/с"
+     ]
+    },
+    {
+     "code": "image_link_internal_error",
+     "count": 2,
+     "severity": "DISAPPROVED",
+     "attribute": "n:image_link",
+     "examples": [
+      "Сповіщувач Ajax Manual Call Point (Red) (8EU) ASP ручний пожежний",
+      "IP-відеокамера Ajax DomeCam Mini HL 8Мп PoE мікрофон (2.8 мм), White"
+     ]
+    },
+    {
+     "code": "explosives_policy_violation",
+     "count": 1,
+     "severity": "DISAPPROVED",
+     "attribute": "",
+     "examples": [
+      "Роз'єм живлення DC-F (D 5,5x2,5мм) 30см"
+     ]
+    },
+    {
+     "code": "guns_parts_policy_violation",
+     "count": 1,
+     "severity": "DISAPPROVED",
+     "attribute": "",
+     "examples": [
+      "Акумулятор свинцево-кислотний Full Energy FEL-1220 GEL 20А·год 12В"
+     ]
+    }
+   ],
+   "account_issues": [
+    {
+     "title": "Misrepresentation",
+     "severity": "CRITICAL",
+     "detail": "Misrepresentation of business identity, business model, and policies is not allowed"
+    }
+   ],
+   "performance": {
+    "cur_range": [
+     "2026-10-15",
+     "2026-11-11"
+    ],
+    "prev_range": [
+     "2026-09-17",
+     "2026-10-14"
+    ],
+    "clicks": 0,
+    "clicks_prev": 0,
+    "impr": 0,
+    "impr_prev": 0,
+    "top": []
+   },
+   "errors": {}
+  }
+ },
+ "rule_alerts": [
+  {
+   "severity": "high",
+   "source": "merchant_center",
+   "metric": "account_issues",
+   "cur": 1,
+   "prev": null,
+   "change": null
+  },
+  {
+   "severity": "high",
+   "source": "merchant_center",
+   "metric": "disapproved_share",
+   "cur": 5073,
+   "prev": null,
+   "change": 1.0
+  }
+ ]
+}

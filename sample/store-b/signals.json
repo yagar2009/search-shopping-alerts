@@ -1,0 +1,388 @@
+{
+ "client": "Store B (doors & windows)",
+ "window_days": 28,
+ "sources": {
+  "search_console": {
+   "range": [
+    "2026-10-13",
+    "2026-11-09"
+   ],
+   "prev_range": [
+    "2026-09-15",
+    "2026-10-12"
+   ],
+   "totals": {
+    "clicks": {
+     "cur": 40,
+     "prev": 5,
+     "change": 7.0
+    },
+    "impressions": {
+     "cur": 3758,
+     "prev": 405,
+     "change": 8.279
+    }
+   },
+   "avg_position": {
+    "cur": 31.6,
+    "prev": 18.2
+   },
+   "rising_queries": [
+    {
+     "query": "столы компьютерные белые",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 39,
+     "impr_prev": 0,
+     "pos": 35.5,
+     "pos_prev": null
+    },
+    {
+     "query": "furniture for kids",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 21,
+     "impr_prev": 3,
+     "pos": 8,
+     "pos_prev": 8
+    },
+    {
+     "query": "ліжко 160 на 200",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 18,
+     "impr_prev": 0,
+     "pos": 36.7,
+     "pos_prev": null
+    },
+    {
+     "query": "купить мебель для офиса украина",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 17,
+     "impr_prev": 0,
+     "pos": 63.8,
+     "pos_prev": null
+    },
+    {
+     "query": "Store B (doors & windows)",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 17,
+     "impr_prev": 2,
+     "pos": 4.6,
+     "pos_prev": 9.5
+    },
+    {
+     "query": "компьютерный стол белый",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 15,
+     "impr_prev": 0,
+     "pos": 39.2,
+     "pos_prev": null
+    },
+    {
+     "query": "белый стол для компьютера",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 15,
+     "impr_prev": 0,
+     "pos": 47,
+     "pos_prev": null
+    },
+    {
+     "query": "мебель для офиса цена",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 14,
+     "impr_prev": 0,
+     "pos": 63.6,
+     "pos_prev": null
+    },
+    {
+     "query": "жалюзи на кухню",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 13,
+     "impr_prev": 0,
+     "pos": 67.4,
+     "pos_prev": null
+    },
+    {
+     "query": "двери межкомнатные белые",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 13,
+     "impr_prev": 0,
+     "pos": 73.2,
+     "pos_prev": null
+    }
+   ],
+   "new_queries": [
+    {
+     "query": "столы компьютерные белые",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 39,
+     "impr_prev": 0,
+     "pos": 35.5,
+     "pos_prev": null
+    },
+    {
+     "query": "ліжко 160 на 200",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 18,
+     "impr_prev": 0,
+     "pos": 36.7,
+     "pos_prev": null
+    },
+    {
+     "query": "купить мебель для офиса украина",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 17,
+     "impr_prev": 0,
+     "pos": 63.8,
+     "pos_prev": null
+    },
+    {
+     "query": "компьютерный стол белый",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 15,
+     "impr_prev": 0,
+     "pos": 39.2,
+     "pos_prev": null
+    },
+    {
+     "query": "белый стол для компьютера",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 15,
+     "impr_prev": 0,
+     "pos": 47,
+     "pos_prev": null
+    },
+    {
+     "query": "мебель для офиса цена",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 14,
+     "impr_prev": 0,
+     "pos": 63.6,
+     "pos_prev": null
+    },
+    {
+     "query": "жалюзи на кухню",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 13,
+     "impr_prev": 0,
+     "pos": 67.4,
+     "pos_prev": null
+    },
+    {
+     "query": "двери межкомнатные белые",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 13,
+     "impr_prev": 0,
+     "pos": 73.2,
+     "pos_prev": null
+    },
+    {
+     "query": "офисный мебель",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 12,
+     "impr_prev": 0,
+     "pos": 57.3,
+     "pos_prev": null
+    },
+    {
+     "query": "жалюзи день ночь днепр",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 12,
+     "impr_prev": 0,
+     "pos": 40,
+     "pos_prev": null
+    }
+   ],
+   "losing_queries": [],
+   "losing_pages": [
+    {
+     "page": "/ru/mebli/kukhonni-mebli/modulni-kukhni/kukhonni-moduli/kukhonnyi-modul-nyzhnii-everest-eko-300-dub-sonoma-triufel-bez-stilnytsi-30kh46kh82-sm-dtm-2771/",
+     "clicks": 0,
+     "clicks_prev": 1,
+     "impr": 0,
+     "impr_prev": 1,
+     "pos": null,
+     "pos_prev": 20
+    },
+    {
+     "page": "/mebli/mebli-dlia-vitalni/vishalky-pidlohovi/plechyky-split-napolni-odynarni-bilyi/",
+     "clicks": 0,
+     "clicks_prev": 1,
+     "impr": 0,
+     "impr_prev": 1,
+     "pos": null,
+     "pos_prev": 3
+    },
+    {
+     "page": "/ru/dveri/vkhidni-dveri/portala-trio-lait-adel-spyl-koniachnyi-chkf/",
+     "clicks": 0,
+     "clicks_prev": 1,
+     "impr": 0,
+     "impr_prev": 1,
+     "pos": null,
+     "pos_prev": 2
+    },
+    {
+     "page": "/en/kontakty/",
+     "clicks": 0,
+     "clicks_prev": 1,
+     "impr": 0,
+     "impr_prev": 3,
+     "pos": null,
+     "pos_prev": 4.3
+    }
+   ],
+   "striking_distance": [
+    {
+     "query": "furniture for kids",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 21,
+     "impr_prev": 3,
+     "pos": 8,
+     "pos_prev": 8
+    }
+   ]
+  },
+  "ga4": {
+   "range": [
+    "2026-10-15",
+    "2026-11-11"
+   ],
+   "prev_range": [
+    "2026-09-17",
+    "2026-10-14"
+   ],
+   "totals": {
+    "sessions": {
+     "cur": 184,
+     "prev": 194,
+     "change": -0.052
+    },
+    "activeUsers": {
+     "cur": 120,
+     "prev": 122,
+     "change": -0.016
+    },
+    "engagedSessions": {
+     "cur": 74,
+     "prev": 95,
+     "change": -0.221
+    },
+    "keyEvents": {
+     "cur": 0,
+     "prev": 0,
+     "change": null
+    },
+    "addToCarts": {
+     "cur": 3,
+     "prev": 11,
+     "change": -0.727
+    },
+    "checkouts": {
+     "cur": 0,
+     "prev": 4,
+     "change": -1.0
+    }
+   },
+   "channels": [
+    {
+     "name": "Direct",
+     "sessions": 86,
+     "sessions_prev": 182,
+     "change": -0.527
+    },
+    {
+     "name": "Organic Search",
+     "sessions": 86,
+     "sessions_prev": 8,
+     "change": 9.75
+    },
+    {
+     "name": "Referral",
+     "sessions": 2,
+     "sessions_prev": 4,
+     "change": -0.5
+    },
+    {
+     "name": "Unassigned",
+     "sessions": 5,
+     "sessions_prev": 0,
+     "change": null
+    },
+    {
+     "name": "Organic Shopping",
+     "sessions": 3,
+     "sessions_prev": 0,
+     "change": null
+    },
+    {
+     "name": "AI Assistant",
+     "sessions": 2,
+     "sessions_prev": 0,
+     "change": null
+    }
+   ],
+   "landing_pages_losing": [
+    {
+     "name": "/dveri/mizhkimnatni-dveri",
+     "sessions": 1,
+     "sessions_prev": 33
+    },
+    {
+     "name": "/dveri",
+     "sessions": 1,
+     "sessions_prev": 14
+    },
+    {
+     "name": "/",
+     "sessions": 43,
+     "sessions_prev": 51
+    },
+    {
+     "name": "/dveri/mizhkimnatni-dveri/adoor-am-02",
+     "sessions": 0,
+     "sessions_prev": 6
+    },
+    {
+     "name": "/dveri/mizhkimnatni-dveri/leador-express-simpli-loft-deko-sld-01",
+     "sessions": 0,
+     "sessions_prev": 4
+    },
+    {
+     "name": "/vikna",
+     "sessions": 1,
+     "sessions_prev": 4
+    }
+   ]
+  }
+ },
+ "rule_alerts": [
+  {
+   "severity": "high",
+   "source": "ga4",
+   "metric": "sessions:Direct",
+   "cur": 86,
+   "prev": 182,
+   "change": -0.527
+  }
+ ]
+}

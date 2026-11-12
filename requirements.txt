@@ -1,0 +1,6 @@
+google-auth>=2.29
+requests>=2.31
+# optional: only when ANTHROPIC_API_KEY is set (otherwise the Claude Code CLI is used)
+anthropic>=0.40
+# tests
+pytest>=8

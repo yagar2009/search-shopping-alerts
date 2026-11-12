@@ -1,0 +1,30 @@
+# Store D (exoskeletons): search & shopping brief
+
+**Status:** amber  
+**Headline:** All 14 products are still pending first review in Merchant Center, so no Shopping traffic yet; the store is new and traffic is tiny.
+
+## Alerts
+
+### [high] All 14 products stuck in initial policy review
+- Source: merchant_center
+- Evidence: products_total 14, status PENDING 14, disapproved_share 0.0, issue pending_initial_policy_review_free_listings count 14. Merchant clicks 0 and impressions 0 in both periods.
+- Likely cause: Feed is new and the first free listings review has not finished. No disapprovals or account issues are reported, so this is likely a normal wait. Unclear how long it has been pending.
+- Next action: Check in Merchant Center when the feed was first submitted. If the review has run longer than about 7 days, request a review or contact support. Also check the store's return, shipping and contact pages against Merchant policies. (owner: feed_specialist)
+
+### [medium] Almost no engaged traffic and no key events
+- Source: cross_source
+- Evidence: GA4 sessions 41 (prev 0), engagedSessions 3, keyEvents 0, addToCarts 0, checkouts 0. Direct 37, Unassigned 3, Organic Search 2. Search Console clicks 1, impressions 25.
+- Likely cause: Direct traffic of 37 out of 41 with 3 engaged sessions looks like internal, test or bot visits rather than real buyers. Prev period is 0 everywhere, so tracking may have started only recently. Unclear.
+- Next action: Filter internal and developer traffic in GA4, and run a test purchase flow to confirm add_to_cart, begin_checkout and purchase events fire. (owner: developer)
+
+## Opportunities
+
+- **Military exoskeleton queries already show at good positions**: військовий екзоскелет pos 6, екзоскелет для військових pos 9, екзоскелет військовий купити pos 9, екзоскелет для ніг pos 8, each with 1 impression. Next: Check that the category and product pages target these Ukrainian terms in titles and headings. Do not act on volume yet, as impressions are very low.
+- **Brand and use-case queries to build on**: hypershell pos 5.5 with 2 impressions, экзоскелет для грузчика (exoskeleton for a loader) pos 2.5 with 2 impressions. Next: Add a short page or section for loader and warehouse use, and make sure the Hypershell brand pages are indexed.
+
+## Note for the client
+
+Your exoskeleton store is still at a very early stage. All 14 products were submitted to Google Shopping but are waiting for Google's first review, so they are not shown yet. Search traffic is very small so far, with 25 appearances in search and 1 click in the last four weeks. This week we will check the review status and make sure visit and purchase tracking works correctly, so we can measure real results once products go live.
+
+## Rule-based alerts (before Claude)
+

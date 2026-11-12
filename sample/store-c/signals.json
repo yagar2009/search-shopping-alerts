@@ -1,0 +1,294 @@
+{
+ "client": "Store C (backup power)",
+ "window_days": 28,
+ "sources": {
+  "search_console": {
+   "range": [
+    "2026-10-13",
+    "2026-11-09"
+   ],
+   "prev_range": [
+    "2026-09-15",
+    "2026-10-12"
+   ],
+   "totals": {
+    "clicks": {
+     "cur": 18,
+     "prev": 0,
+     "change": null
+    },
+    "impressions": {
+     "cur": 1138,
+     "prev": 0,
+     "change": null
+    }
+   },
+   "avg_position": {
+    "cur": 38.0,
+    "prev": null
+   },
+   "rising_queries": [
+    {
+     "query": "гібридний інвертор для сонячних панелей",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 34,
+     "impr_prev": 0,
+     "pos": 50.7,
+     "pos_prev": null
+    },
+    {
+     "query": "гібридний сонячний інвертор",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 31,
+     "impr_prev": 0,
+     "pos": 51.6,
+     "pos_prev": null
+    },
+    {
+     "query": "інвертор сонячний гібридний",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 26,
+     "impr_prev": 0,
+     "pos": 56.7,
+     "pos_prev": null
+    },
+    {
+     "query": "сонячний інвертор гібридний",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 26,
+     "impr_prev": 0,
+     "pos": 56.7,
+     "pos_prev": null
+    },
+    {
+     "query": "ai68000",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 23,
+     "impr_prev": 0,
+     "pos": 4.1,
+     "pos_prev": null
+    },
+    {
+     "query": "ai55430",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 22,
+     "impr_prev": 0,
+     "pos": 7.7,
+     "pos_prev": null
+    },
+    {
+     "query": "ecoflow для резервного живлення будинку ціна",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 21,
+     "impr_prev": 0,
+     "pos": 6.9,
+     "pos_prev": null
+    },
+    {
+     "query": "сонячний гібридний інвертор",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 20,
+     "impr_prev": 0,
+     "pos": 56.8,
+     "pos_prev": null
+    },
+    {
+     "query": "ai25889",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 19,
+     "impr_prev": 0,
+     "pos": 5.7,
+     "pos_prev": null
+    },
+    {
+     "query": "ai59155",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 19,
+     "impr_prev": 0,
+     "pos": 7.5,
+     "pos_prev": null
+    }
+   ],
+   "new_queries": [
+    {
+     "query": "гібридний інвертор для сонячних панелей",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 34,
+     "impr_prev": 0,
+     "pos": 50.7,
+     "pos_prev": null
+    },
+    {
+     "query": "гібридний сонячний інвертор",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 31,
+     "impr_prev": 0,
+     "pos": 51.6,
+     "pos_prev": null
+    },
+    {
+     "query": "інвертор сонячний гібридний",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 26,
+     "impr_prev": 0,
+     "pos": 56.7,
+     "pos_prev": null
+    },
+    {
+     "query": "сонячний інвертор гібридний",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 26,
+     "impr_prev": 0,
+     "pos": 56.7,
+     "pos_prev": null
+    },
+    {
+     "query": "ai68000",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 23,
+     "impr_prev": 0,
+     "pos": 4.1,
+     "pos_prev": null
+    },
+    {
+     "query": "ai55430",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 22,
+     "impr_prev": 0,
+     "pos": 7.7,
+     "pos_prev": null
+    },
+    {
+     "query": "ecoflow для резервного живлення будинку ціна",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 21,
+     "impr_prev": 0,
+     "pos": 6.9,
+     "pos_prev": null
+    },
+    {
+     "query": "сонячний гібридний інвертор",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 20,
+     "impr_prev": 0,
+     "pos": 56.8,
+     "pos_prev": null
+    },
+    {
+     "query": "ai25889",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 19,
+     "impr_prev": 0,
+     "pos": 5.7,
+     "pos_prev": null
+    },
+    {
+     "query": "ai59155",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 19,
+     "impr_prev": 0,
+     "pos": 7.5,
+     "pos_prev": null
+    }
+   ],
+   "losing_queries": [],
+   "losing_pages": [],
+   "striking_distance": []
+  },
+  "ga4": {
+   "range": [
+    "2026-10-15",
+    "2026-11-11"
+   ],
+   "prev_range": [
+    "2026-09-17",
+    "2026-10-14"
+   ],
+   "totals": {
+    "sessions": {
+     "cur": 77,
+     "prev": 12,
+     "change": 5.417
+    },
+    "activeUsers": {
+     "cur": 56,
+     "prev": 6,
+     "change": 8.333
+    },
+    "engagedSessions": {
+     "cur": 41,
+     "prev": 7,
+     "change": 4.857
+    },
+    "keyEvents": {
+     "cur": 0,
+     "prev": 0,
+     "change": null
+    },
+    "addToCarts": {
+     "cur": 1,
+     "prev": 2,
+     "change": -0.5
+    },
+    "checkouts": {
+     "cur": 2,
+     "prev": 0,
+     "change": null
+    }
+   },
+   "channels": [
+    {
+     "name": "Direct",
+     "sessions": 38,
+     "sessions_prev": 10,
+     "change": 2.8
+    },
+    {
+     "name": "Organic Search",
+     "sessions": 22,
+     "sessions_prev": 0,
+     "change": null
+    },
+    {
+     "name": "Unassigned",
+     "sessions": 17,
+     "sessions_prev": 2,
+     "change": 7.5
+    }
+   ],
+   "landing_pages_losing": [
+    {
+     "name": "/akumulyatory/lifepo4/akumulyator-gv-lifepo4-12-8v-12ah-154wh",
+     "sessions": 0,
+     "sessions_prev": 1
+    },
+    {
+     "name": "/specials",
+     "sessions": 0,
+     "sessions_prev": 1
+    }
+   ]
+  }
+ },
+ "rule_alerts": []
+}

@@ -1,0 +1,16 @@
+{
+  "clients": [
+    {
+      "id": "store-a",
+      "name": "Store A",
+      "real_name": "Example Store",
+      "domain": "example.com",
+      "mask": ["Example", "ExampleBrand"],
+      "days": 28,
+      "gsc_site": "sc-domain:example.com",
+      "ga4_property": "properties/123456789",
+      "merchant_id": "1234567890",
+      "thresholds": {"drop_high": -0.3}
+    }
+  ]
+}

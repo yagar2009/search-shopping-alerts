@@ -1,0 +1,82 @@
+{
+ "status": "amber",
+ "headline": "Organic search is growing fast (40 clicks vs 5), but GA4 shows no key events and Direct traffic halved, so tracking needs checking first.",
+ "alerts": [
+  {
+   "severity": "high",
+   "source": "ga4",
+   "title": "No key events recorded and cart steps falling",
+   "evidence": "keyEvents 0 vs 0. addToCarts 3 vs 11 (-72.7%). checkouts 0 vs 4 (-100%). engagedSessions 74 vs 95 (-22.1%).",
+   "likely_cause": "Key events look not configured, since the count is 0 in both periods. The fall in carts and checkouts is on small numbers, so it may be noise or a broken purchase funnel. The data cannot tell which.",
+   "next_action": "Developer tests the full path on the live site (product, add to cart, checkout) and confirms in GA4 DebugView that add_to_cart, begin_checkout and purchase fire. Then mark the right events as key events.",
+   "owner": "developer"
+  },
+  {
+   "severity": "high",
+   "source": "ga4",
+   "title": "Direct sessions down 52.7% while Organic Search jumped",
+   "evidence": "Direct 86 vs 182 (-52.7%). Organic Search 86 vs 8. Total sessions 184 vs 194 (-5.2%). Landing page /dveri/mizhkimnatni-dveri 1 vs 33 sessions, /dveri 1 vs 14.",
+   "likely_cause": "Total traffic is flat, so this is a shift between channels, not a loss. Direct was probably inflated before by untagged traffic, bots or a past campaign aimed at the interior door pages. Some of it may also be a change in how GA4 attributes visits. Unclear which.",
+   "next_action": "Analyst checks GA4 Direct sessions by day, device and country for 17 Sep to 11 Nov to find when the 33-session door page traffic stopped. Ask the client about any ads, emails or campaigns in September and early October.",
+   "owner": "account_manager"
+  },
+  {
+   "severity": "medium",
+   "source": "search_console",
+   "title": "Impressions up 8x but average position fell to 31.6 and new queries get no clicks",
+   "evidence": "Clicks 40 vs 5. Impressions 3758 vs 405. Avg position 31.6 vs 18.2. Top new queries have 0 clicks at positions 35.5 to 73.2, for example 'столы компьютерные белые' (white computer desks) 39 impressions, 'мебель для офиса цена' (office furniture price) 14 impressions at 63.6.",
+   "likely_cause": "The site is now indexed for many new long tail queries on page 3 or lower. This pulls the average position down. The growth is real but still shallow.",
+   "next_action": "SEO lists the pages that rank for the new furniture and blind queries and checks they have matching titles, headings and category copy.",
+   "owner": "seo"
+  },
+  {
+   "severity": "low",
+   "source": "search_console",
+   "title": "Four pages that had clicks last period now have none",
+   "evidence": "Each of 4 pages went from 1 click to 0. They include /ru/dveri/vkhidni-dveri/portala-trio-lait-adel-spyl-koniachnyi-chkf/ (pos 2 before) and /en/kontakty/ (4.3 before).",
+   "likely_cause": "Single clicks, so most likely noise. No evidence of a real loss.",
+   "next_action": "SEO checks that these 4 URLs return 200 and are indexed. No other action unless they stay at 0 next week.",
+   "owner": "seo"
+  },
+  {
+   "severity": "low",
+   "source": "cross_source",
+   "title": "Merchant Center data missing from this report",
+   "evidence": "No merchant_center block in the signals. GA4 shows Organic Shopping 3 sessions vs 0.",
+   "likely_cause": "Merchant Center is not connected to the weekly report. Feed health cannot be judged.",
+   "next_action": "Feed specialist connects the Merchant Center account to the report, or confirms the store does not use it.",
+   "owner": "feed_specialist"
+  }
+ ],
+ "opportunities": [
+  {
+   "title": "Push 'furniture for kids' onto page 1 clicks",
+   "evidence": "21 impressions vs 3, position 8 (same as before), 0 clicks.",
+   "next_action": "Improve the title and intro of the kids furniture category and add internal links to it from the home page."
+  },
+  {
+   "title": "Build a page set for white computer desks",
+   "evidence": "Four spelling variants appear as new queries: 'столы компьютерные белые' 39 impressions, 'компьютерный стол белый' 15, 'белый стол для компьютера' 15, all at positions 35.5 to 47.",
+   "next_action": "Make one strong category page for white computer desks that covers all variants, and check the products are in the right category."
+  },
+  {
+   "title": "Target office furniture and blinds queries",
+   "evidence": "'купить мебель для офиса украина' (buy office furniture Ukraine) 17 impressions, 'жалюзи день ночь днепр' (day-night blinds Dnipro) 12 impressions at position 40, 'жалюзи на кухню' (kitchen blinds) 13.",
+   "next_action": "Check whether category pages exist for these topics and add them to the content plan if not."
+  },
+  {
+   "title": "Brand query is gaining",
+   "evidence": "Store name query: position 4.6 vs 9.5, 17 impressions vs 2.",
+   "next_action": "Make sure the home page title and snippet show the main product lines."
+  }
+ ],
+ "client_note": "Your site is showing up in Google much more than last month. Clicks from search went from 5 to 40, and organic visits in our analytics went from 8 to 86. Most of the new visibility is on searches where the site still ranks low, so we will work on those pages next. We also found that the analytics does not record purchases or other key actions, and we are checking this with the developer this week. Until it is fixed we cannot measure orders from this traffic.",
+ "_meta": {
+  "backend": "claude-code-cli",
+  "model": "sonnet",
+  "cost_usd": 0.0566398,
+  "duration_ms": 23550,
+  "input_tokens": 2,
+  "output_tokens": 3028
+ }
+}

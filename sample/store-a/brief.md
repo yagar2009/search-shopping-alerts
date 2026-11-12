@@ -1,0 +1,39 @@
+# Store A (security systems): search & shopping brief
+
+**Status:** red  
+**Headline:** All 5,073 products are disapproved in Merchant Center because of a critical Misrepresentation account issue, so Shopping has zero reach.
+
+## Alerts
+
+### [high] Merchant account flagged for Misrepresentation, all products disapproved
+- Source: merchant_center
+- Evidence: Account issue: Misrepresentation, severity CRITICAL. 5073 of 5073 products disapproved (disapproved_share 1.0). Misrepresentation code on 5073 products. Merchant clicks 0 (prev 0), impressions 0 (prev 0).
+- Likely cause: Site or account information that Google considers misleading about business identity, business model or policies (for example missing contact, returns or company details, or promises not kept). The data does not show which one.
+- Next action: Audit the site against Google's Misrepresentation checklist (contact details, company info, delivery and returns, payment info), fix the gaps, then request a review in Merchant Center. (owner: feed_specialist)
+
+### [medium] Product-level errors to fix alongside the account issue
+- Source: merchant_center
+- Evidence: landing_page_error: 2 products (attribute link), e.g. Ajax BulletCam HL, Dahua DH-PFS3005-5GT-L. image_link_internal_error: 2 products, e.g. Ajax Manual Call Point (Red). explosives_policy_violation: 1 (DC-F power connector 30cm). guns_parts_policy_violation: 1 (Full Energy FEL-1220 GEL battery).
+- Likely cause: Broken product URLs and images for four items. The two policy flags look like false positives triggered by product wording (connector and battery).
+- Next action: Check the 4 link and image URLs and fix them. Request a manual review for the connector and battery items, and reword their titles and descriptions if needed. (owner: feed_specialist)
+
+### [medium] No key events recorded, tracking setup needs a check
+- Source: ga4
+- Evidence: keyEvents 0 (prev 0). Sessions 48 (prev 16). addToCarts 1, checkouts 1. Direct 41 sessions (prev 16), Organic Search 5 (prev 0), Referral 2 (prev 0).
+- Likely cause: Key events are probably not configured or not firing. Direct is 41 of 48 sessions, which may mean poor channel attribution. Traffic volume is small, so this is unclear.
+- Next action: Check in GA4 that purchase, lead and form events are marked as key events and fire on a test order and a test enquiry. Check UTM and consent setup. (owner: developer)
+
+## Opportunities
+
+- **Page-one chance for 'online patch panel'**: 33 impressions, position 9.8, 0 clicks, no data in previous period. Next: Improve the title, meta description and on-page content of the ranking page to move it into the top 5 and earn clicks.
+- **Access control queries sit far down the results**: 'системи контролю доступу' (access control systems) 16 impressions, position 86.7. 'система контролю доступу' 13 impressions, position 86.4. 'скуд запорожье' (ACS Zaporizhzhia) 9 impressions, position 71.8. 'скуд днепр' (ACS Dnipro) 7 impressions, position 67. Next: Plan or strengthen a category page for access control with city-focused sections, and build internal links to it.
+- **Organic search is starting from a very low base**: Search Console clicks 3 (prev 0), impressions 442 (prev 0), average position 51.7. GA4 Organic Search sessions 5 (prev 0). Next: Treat as early baseline. Set click and impression targets for the next 28 days and track the same queries weekly.
+
+## Note for the client
+
+Google has paused all 5,073 of your products in Shopping because it flagged a problem with how the business and its policies are presented on the site. This means no product ads or free listings are running right now. We are reviewing the site's contact, company, delivery and returns information and will fix the gaps before asking Google to re-check. We are also fixing a few broken product links and images. Search traffic is only starting to appear, and we will report on it as it grows.
+
+## Rule-based alerts (before Claude)
+
+- high: merchant_center / account_issues: 1
+- high: merchant_center / disapproved_share: 5073 (100% of products)

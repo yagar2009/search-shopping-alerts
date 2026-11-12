@@ -1,0 +1,211 @@
+{
+ "client": "Store D (exoskeletons)",
+ "window_days": 28,
+ "sources": {
+  "search_console": {
+   "range": [
+    "2026-10-13",
+    "2026-11-09"
+   ],
+   "prev_range": [
+    "2026-09-15",
+    "2026-10-12"
+   ],
+   "totals": {
+    "clicks": {
+     "cur": 1,
+     "prev": 0,
+     "change": null
+    },
+    "impressions": {
+     "cur": 25,
+     "prev": 0,
+     "change": null
+    }
+   },
+   "avg_position": {
+    "cur": 10.6,
+    "prev": null
+   },
+   "rising_queries": [
+    {
+     "query": "\"hypershell\"",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 2,
+     "impr_prev": 0,
+     "pos": 5.5,
+     "pos_prev": null
+    },
+    {
+     "query": "экзоскелет для грузчика",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 2,
+     "impr_prev": 0,
+     "pos": 2.5,
+     "pos_prev": null
+    },
+    {
+     "query": "еркельтунгстропфен доставка",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 2,
+     "impr_prev": 0,
+     "pos": 54.5,
+     "pos_prev": null
+    },
+    {
+     "query": "hypershell",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 2,
+     "impr_prev": 0,
+     "pos": 5.5,
+     "pos_prev": null
+    },
+    {
+     "query": "екзоскелет військовий купити",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 1,
+     "impr_prev": 0,
+     "pos": 9,
+     "pos_prev": null
+    },
+    {
+     "query": "екзоскелет для військових",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 1,
+     "impr_prev": 0,
+     "pos": 9,
+     "pos_prev": null
+    },
+    {
+     "query": "екзоскелет для ніг",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 1,
+     "impr_prev": 0,
+     "pos": 8,
+     "pos_prev": null
+    },
+    {
+     "query": "військовий екзоскелет",
+     "clicks": 0,
+     "clicks_prev": 0,
+     "impr": 1,
+     "impr_prev": 0,
+     "pos": 6,
+     "pos_prev": null
+    }
+   ],
+   "new_queries": [],
+   "losing_queries": [],
+   "losing_pages": [],
+   "striking_distance": []
+  },
+  "ga4": {
+   "range": [
+    "2026-10-15",
+    "2026-11-11"
+   ],
+   "prev_range": [
+    "2026-09-17",
+    "2026-10-14"
+   ],
+   "totals": {
+    "sessions": {
+     "cur": 41,
+     "prev": 0,
+     "change": null
+    },
+    "activeUsers": {
+     "cur": 40,
+     "prev": 0,
+     "change": null
+    },
+    "engagedSessions": {
+     "cur": 3,
+     "prev": 0,
+     "change": null
+    },
+    "keyEvents": {
+     "cur": 0,
+     "prev": 0,
+     "change": null
+    },
+    "addToCarts": {
+     "cur": 0,
+     "prev": 0,
+     "change": null
+    },
+    "checkouts": {
+     "cur": 0,
+     "prev": 0,
+     "change": null
+    }
+   },
+   "channels": [
+    {
+     "name": "Direct",
+     "sessions": 37,
+     "sessions_prev": 0,
+     "change": null
+    },
+    {
+     "name": "Unassigned",
+     "sessions": 3,
+     "sessions_prev": 0,
+     "change": null
+    },
+    {
+     "name": "Organic Search",
+     "sessions": 2,
+     "sessions_prev": 0,
+     "change": null
+    }
+   ],
+   "landing_pages_losing": []
+  },
+  "merchant_center": {
+   "products_total": 14,
+   "status": {
+    "PENDING": 14
+   },
+   "disapproved_share": 0.0,
+   "top_issues": [
+    {
+     "code": "pending_initial_policy_review_free_listings",
+     "count": 14,
+     "severity": "PENDING",
+     "attribute": "",
+     "examples": [
+      "Екзоскелет Hypershell X PRO",
+      "Екзоскелет Hypershell X Carbon",
+      "Екзоскелет Hypershell X Ultra"
+     ]
+    }
+   ],
+   "account_issues": [],
+   "performance": {
+    "cur_range": [
+     "2026-10-15",
+     "2026-11-11"
+    ],
+    "prev_range": [
+     "2026-09-17",
+     "2026-10-14"
+    ],
+    "clicks": 0,
+    "clicks_prev": 0,
+    "impr": 0,
+    "impr_prev": 0,
+    "top": []
+   },
+   "errors": {}
+  }
+ },
+ "rule_alerts": []
+}
